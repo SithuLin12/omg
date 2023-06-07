@@ -1,0 +1,57 @@
+.bg-img{
+    width: 80%;
+    height: 100vh;
+}
+.ssOne{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 200px;
+}
+.ssTwo{
+    position: absolute;
+    right: 30px;
+    top:200px;
+    width: 200px;
+}
+.button{
+    
+        width:300px;position: absolute;right: 40%;top: 80%;
+
+}
+
+.ssThree{
+    display: none;
+   
+       
+        position: absolute;
+        left: 30px;
+        top:40%;
+        width: 200px;
+}
+
+@media screen and (max-width : 800px) {
+ .bg-img{
+    width: 100%;
+    z-index: 9999;
+    position: absolute;
+    height: 40%;
+ }
+ .ssOne{
+    position: absolute;
+    top: 40%;
+    right: 40%;
+    width: 200px;
+}
+.ssTwo{
+    position: absolute;
+    right: 30px;
+    top:40%;
+    width: 200px;
+}
+
+.button{
+    width:250px;position: absolute;right: 50px;top: 30%;
+    z-index: 99999;
+  }
+}
